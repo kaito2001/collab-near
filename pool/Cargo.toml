@@ -1,0 +1,15 @@
+[package]
+name = "pool"
+edition = "2021"
+version = "0.1.0"
+license = "MIT"
+description = "The Contract for collab platform"
+
+[lib]
+crate-type = ["cdylib"]
+
+
+[dependencies]
+near-sdk = "4.0.0"
+near-contract-standards = "4.0.0"
+near-units = "0.2.0"
